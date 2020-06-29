@@ -1,0 +1,16 @@
+.popularDiv{
+  padding: 30px 0;
+  .popSpan{
+    color: #333;
+  }
+  .popDl{
+    display: inline-block;
+  }
+  .popDd{
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 20px;
+    color: #666;
+    cursor: pointer;
+  }
+}

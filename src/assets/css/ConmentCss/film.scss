@@ -1,0 +1,93 @@
+.filmDiv{
+  width: 100%;
+  .el-carousel{
+    .el-carousel__indicators{
+      
+      .el-carousel__indicator{
+        margin-top: 10px;
+        .el-carousel__button{
+          width: 10px;
+          background-color: #333333;
+          opacity: 0.2;
+
+        }
+      }
+      &li,.is-active{
+        .el-carousel__button{
+          background-color: #333333;
+          opacity: 1;
+        }
+      }
+    }
+    .el-carousel__container{
+      .el-carousel__item{
+        .filmCar{
+          width: 100%;
+        .filmUl{
+          width: 100%;
+          list-style: none;
+          .filmLi{
+            width: 20%;
+            height: 296px;
+            float: left;
+            padding: 10px;
+            box-sizing: border-box;
+            .liDiv{
+              height: 100%;
+              overflow: hidden;
+              position: relative;
+              cursor: pointer;
+              .filmimg{
+                width: 100%;
+                height: 100%;
+                border-radius: 5px;
+              
+              }
+              .film-info{
+                width: 100%;
+                height: 100px;
+                position: absolute;
+                bottom: 0;
+                border-bottom-left-radius: 4px;
+                border-bottom-right-radius: 4px;
+                background-image: linear-gradient(-180deg, 
+                rgba(0,0,0,0.00) 0%, 
+                rgba(29,45,55,0.80) 99%);
+                .film-in{
+                  font-size: 12px;
+                  color: #fff;
+                  text-align: left;
+                  margin-top: 55px;
+                  padding-left: 10px;
+                  font-weight: 500; 
+                  .film-number{
+                    color: #FD9827;
+                  }
+                  .film-think{
+                    color: azure;
+                   
+                    
+                  }
+              
+                }
+                .film-title{
+                  padding-left: 10px;
+                  font-size: 16px;
+                  white-space: nowrap;
+                  width: 6em;
+                  overflow: hidden;
+                  text-overflow: ellipsis;
+                  font-weight: 500;
+                  color:#fff;
+                }
+              }
+            }
+           
+          }
+        }
+      }
+    }
+
+  }
+}
+}

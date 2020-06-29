@@ -1,0 +1,76 @@
+div{
+  margin: 0;
+  padding: 0;
+}
+.tages{
+  width: 100%;
+  padding: 15px 20px 0 ;
+  box-sizing: border-box;
+  height: 40px;
+  display: flex;
+ 
+  .tageList{
+    width: 160px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    .class-span{
+      display:inline-block;
+      width: 80px;
+      height: 22px;
+    }
+    .whole-span{
+      display: inline-block;
+      width: 48px;
+      text-align: center;
+      box-sizing: border-box;
+      line-height: 22px;
+      border-radius: 10px;
+      color: #222;
+      background-color: #FFdd00;
+    }
+  }
+  .whole-list{
+    width: calc(100% - 170px);
+    display: inline-block;
+    box-sizing: border-box;
+  }
+  .list-title{
+    min-width: 120px;
+    display: inline-block;
+    height: 28px;
+    font-size: 14px;
+    color: #666;
+    position: relative;
+    vertical-align: top;
+    &:hover{
+      .food-list{
+        display: block;
+        z-index: 999;
+      }
+    }
+    .title-span{
+      padding: 0 10px ;
+    }
+    i{
+      font-size: 10px;
+    }
+    .food-list{
+      position: absolute;
+      top: 20px;
+      border: 1px solid #E5E5E6;
+      width: 510px;
+      padding: 15px 20px 0;
+      display: none;
+      .food-Dl{
+        .food-Dt{
+      
+        }
+      }
+
+    }
+  }
+}

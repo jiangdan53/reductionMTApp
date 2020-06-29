@@ -1,0 +1,74 @@
+.spellAB{
+  padding: 30px 0;
+  .popularDiv{
+    .popSpan{
+      color: #333;
+    }
+    .popDl{
+      display: inline-block;
+      .popDd{
+        font-size: 15px;
+        margin: 0 17px;
+        color: #666;
+        display: inline-block;
+        margin: 0 10px;
+        width: 25px;
+        height: 25px;
+        padding-top: 2px;
+        cursor: pointer;
+        box-sizing: border-box;
+        text-align: center;
+        border-radius: 50%;
+        a{
+          padding: 5px ;
+          text-decoration: none;
+          color: #666;
+
+        }
+      }
+    }
+  }
+  .ABclass{
+    width: 100%;
+    div{
+      margin: 0;
+      padding: 0;
+    }
+    .line{
+      width: 100%;
+      vertical-align: middle;
+      padding: 13px 30px 13px 10px;
+      float: left;
+      .topA{
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background-color: #FFD000;
+        border-radius: 50%;
+        color: #222;
+        text-align: center;
+        vertical-align: top;
+        padding: 10px;
+        box-sizing: border-box;        
+      }
+      .place-name{
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+        width: calc(100% - 50px);
+        .place-span{
+          cursor: pointer;
+          margin: 10px 20px;
+          color: #666;
+          display: inline-block;
+          font-size: 14px;
+          &:hover{
+            color: #000;
+          }
+        }
+
+      }
+
+    }
+  }
+}
